@@ -53,6 +53,7 @@ namespace NugetPublisher
 
                 var filePath = files[0];
                 string command = $"nuget add {filePath} -source {tbExportPath.Text}";
+                //cmd.exe /c nuget add ""C:\Users\wwwzl\source\repos\EfiritPro.Retail.Packages.Authorization\bin\Debug\EfiritPro.Retail.Packages.Authorization.2.2.3.nupkg"" -source "C:\Users\wwwzl\source\repos\retail-workspace"
                 //string command = "";
                 ExecuteCommand(command); 
             }
